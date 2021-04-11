@@ -34,7 +34,7 @@ class App extends Component {
             this.setState({ searchField: e.target.value });
           }}
           type="search"
-          placeholder="search monster"
+          placeholder="search Monster"
         />
         <CardList monsters={filterMonsters} />
       </div>
